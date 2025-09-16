@@ -24,6 +24,10 @@ model = joblib.load(os.path.join(BASE_DIR, "job_recommendation_model.pkl"))
 vectorizer = joblib.load(os.path.join(BASE_DIR, "vectorizer.pkl"))
 labels = joblib.load(os.path.join(BASE_DIR, "label_encoder.pkl"))
 
+BASE_DIR = os.path.dirname(__file__)
+model = joblib.load(os.path.join(BASE_DIR, "job_recommendation_model.pkl"))
+
+
 # ----------------------------
 # UI Layout
 # ----------------------------
