@@ -1,3 +1,5 @@
+![JobMatch AI – Thumbnail](thumbnail/thumbnail.png)
+
 # 🚀 JobMatch AI – Career Recommendation System
 
 A simple end-to-end demo for job title recommendations using classical ML. Train a `RandomForestClassifier` on text features, then serve predictions via a Streamlit app.
